@@ -154,106 +154,8 @@ h2{
     z-index: 100;
 }
 
-
-/* .mes img{
-    height: 250px;
-    width: 250px;
-    box-shadow: 3px 5px 15px 0 black;
-    margin: 30px;
-    transition: width 2s, height 2s;
-}
-
-.mes img:hover{
-    transform: sacale(3,3);
-    z-index: 100;
-}
-
- .mes{
-    grid-area: foto;
-    position: relative;
-    border: solid 2px grey;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 5rem;
-}
- 
-
- .mes div{
-    display: inline-block;
-    margin-bottom: 30px;
-}
-
-
-.destacadoTres{
-  
-    position: relative;
-    margin-left: 180px;
-}
-
-.destacadoDos{
-   
-    position: relative;
-   margin-left: 115px;
-}
-
-.destacadoUno{
-   
-    position: relative;
-    margin-left: 30px;
-}
- */
-
-/* .info{
-   
-   
-    background-color: rgb(156, 201, 228);
-    border: solid black;
-    
-}
-
-.info div{
-    display: inline-block;
-}
-
-h3{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.info p{
-    font-family: sans-serif;
-
-}
-.footerUno{
-    grid-area: footerUno;
-} */
-
-
 /* smartwatch html */
 
-.gridSmartwatch{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-areas: 
-    "navegador navegador navegador"
-    "logDos logDos logDos"
-    "subDos subDos subDos"
-    "main main main"
-    "relojes relojes relojes"
-    "relojes relojes relojes"
-    "footerDos footerDos footerDos";
-}
-
-.headerSmartwatch{
-    grid-area: navegador;
-}
-.logoSmartwatch{
-    grid-area: logDos;
-}
-.subtituloSmartwatch{
-    grid-area: subDos;
-}
 
 main{
     grid-area: main;
@@ -278,8 +180,8 @@ main{
     width: 50%;
     font-size: 20px;
     font-family: sans-serif;
-
 }
+
 button a{
     text-decoration: none;
     color: white;
@@ -295,7 +197,22 @@ button{
    margin: 10px 0;
 }
 
-.relojes{
+.carusel-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.carousel{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.carousel img{
+    height: 300px;
+}
+
+/* .relojes{
     grid-area: relojes;
     text-align: center;
     margin: 30px;
@@ -315,11 +232,7 @@ button{
     transform: scale(1.5,1.5);
     z-index: 100;
 }
-
-.footerDos{
-    grid-area: footerDos;
-}
-
+ */
 
 
 /* combos html */
