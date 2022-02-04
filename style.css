@@ -1,61 +1,10 @@
-/* *{
-  margin: 0;
-  padding: 0;
-} */
+
 body{
      height: 100%;
     
 }
    
 /* header y logo para todas las paginas */    
-
-/* header{
-    background: rgb(252,191,234);
-    background-image: radial-gradient(circle, rgba(252,191,234,1) 20%, rgba(148,187,233,1) 56%);
-    position: sticky;
-    top: 0;
-    height: 60px;
-    width: 100%;
-    margin-top: 0;
-    text-align: center;
-}
-
-
-nav, .ulNav, li{
-    display: inline-block;
-    text-align: center;
-}
-
-h1{
-    color: black;
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    display: inline;
-    position: absolute;
-    left: 0; 
-}
-
-.navButton{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 30px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    bottom: 0; 
-    transition: all 0.8s;
-}
- .navButton:hover{
-    transform: scale(2,2);
-    z-index: 100;
- }
-
-.ulNav li a:hover{
-    color: black;
-} */
 
 .logo{
    
@@ -85,32 +34,7 @@ h1{
 
 /* index html */
 
- /* .gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto;
-   grid-column-gap: 10px;
-   grid-row-gap: 10px;
-    grid-template-areas: 
-    "header header header"
-    "log log log"
-    "inicio inicio inicio"
-    "subt subt subt"
-    "foto foto foto"
-    "foto foto foto"
-    "footerUno footerUno footerUno";   
-  } */
-
- /*  .headerHtml{
-      grid-area: header;
-  }
- 
-  .contenedorLogo{
-      grid-area: log;
-  } */
-
 .inicio{
-    grid-area: inicio;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,9 +47,6 @@ h1{
     width: 80rem;    
 }
 
-.subtitulo{
-    grid-area: subt;
-}
 h1{
     font-size: 40px;
     text-align: center;
@@ -158,7 +79,6 @@ h2{
 
 
 main{
-    grid-area: main;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,29 +131,6 @@ button{
 .carousel img{
     height: 300px;
 }
-
-/* .relojes{
-    grid-area: relojes;
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
-    border: solid 1px #99A799;
-    border-radius: 4px;
-}
-
-.relojes-img{
-    width: 200px;
-    height: 200px;
-    box-shadow: 3px 5px 15px 0 black;
-    transition: all 0.8s;
-}
-
-.relojes-img:hover{
-    transform: scale(1.5,1.5);
-    z-index: 100;
-}
- */
-
 
 /* combos html */
 
@@ -352,63 +249,8 @@ table{
 
 /* contacto html */
 
-.gridContacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-areas: 
-    "headerContacto headerContacto headerContacto"
-    "logCinco logCinco logCinco"
-    "subCinco subCinco subCinco"
-    "formiulario formulario formulario"
-    "formiulario formulario formulario"
-    "footerCinco footerCinco footerCinco";
-}
-
-.headerContacto{
-    grid-area: headerContacto;
-}
-.logCinco{
-    grid-area: logCinco;
-}
-
-.subCinco{
-    grid-area: subCinco;
-}
-
-fieldset{
-    height: 300px;
-    width: 40%;
-    background: rgb(191,219,252);
-    background-image: radial-gradient(circle, rgba(191,219,252,1) 11%, rgba(233,148,230,0.5410539215686274) 56%);
-}
-
-fieldset div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    font-family: cursive;
-}
-legend{
-    font-family: cursive;
-}
-
-input{
-    transition: background-color 1s;
-}
-
-input:hover{
-    background-color: rgb(227, 230, 230);
-}
-
-.formulario{
-    grid-area: formulario;
-    min-height: 60vh;
-}
-.footerCinco{
-    grid-area: footerCinco;
+.bg-rosa{
+    background-color:rgb(252,191,234) ;
 }
 
 /*solo footer  */
